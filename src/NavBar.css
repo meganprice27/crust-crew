@@ -1,0 +1,25 @@
+.NavBar {
+    background: var(--primaryColor);
+    color: var(--secondaryColor);
+    padding: 10px 0;
+    display: flex;
+    justify-content:space-between; 
+}
+
+.NavBar div {
+    padding: 0 25px;
+}
+
+.navBarLinks {
+    display: flex;
+}
+
+.pizzaIcon {
+    height: 30px;
+    width: 30px;
+}
+
+.basketIcon {
+    height: 25px;
+    width: 25px;
+}

@@ -8,6 +8,7 @@
 body {
     background-color: var(--secondaryColor);
     font-family: "Inconsolata", monospace;
+    color: var(--textColor)
 }
 
 h1 {
@@ -20,7 +21,6 @@ h1 {
 h3 {
     font-size: 40px;
     text-align: center;
-    color: var(--textColor)
 }
 
 button {
@@ -34,4 +34,8 @@ button {
     font-family: "Inconsolata", monospace;
     padding: 20px 40px;
 
+}
+
+button:hover {
+    background: #000091;
 }

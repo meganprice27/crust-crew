@@ -1,8 +1,12 @@
 h1 {
-    margin: 50px 35px;
+    margin: 45px 35px;
 }
 
-img {
+h3 {
+    padding: 30px;
+}
+
+.homePageImage {
     height: 250px;
     width: 250px;
     display: block;
