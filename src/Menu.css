@@ -1,3 +1,41 @@
-.menuContainer { 
+.menuBackground { 
     background: var(--primaryColor);
+    padding: 50px 0;
+}
+
+.menuContainer {
+    background: var(--secondaryColor);
+    border-radius: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.pizzaBoxImage {
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menuItem {
+    padding-left:50px
+}
+
+.itemDescription {
+    font-size: 20px;
+}
+
+.plusMinus {
+    display: flex;
+    font-size: 25px;
+}
+
+.plusMinus div {
+    padding: 0 10px;
+}
+
+.itemPrice {
+    font-size: 25px;
 }
