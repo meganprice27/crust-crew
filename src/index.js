@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import NavBar from './NavBar';
 import App from './App';
+import Menu from './Menu';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,6 +12,7 @@ root.render(
   <React.StrictMode>
     <NavBar />
     <App />
+    <Menu />
   </React.StrictMode>
 );
 
